@@ -61,7 +61,6 @@ form.addEventListener("submit", function (event) {
 
         }else{
           spanMensaje.style.display = "none";
-          boton.disabled = false;
           alert('Tu correo ha sido enviado con éxito! \nGracias por contactarme.');
           form.reset();
           return;
